@@ -34,4 +34,7 @@ let gente = [{
         edad: 10
     },
 ]
-
+var letras = gente.filter (function(personas){
+    return personas.edad < 40 && personas.nombre [0] === 'J';
+})
+console.log(letras)

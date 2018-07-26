@@ -9,7 +9,14 @@
 //  throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
 
 // Aquí tu código
-
+let muestraPorConsolaEurosEnPesetas = (a) => {
+    if (typeof a  !== "number"){
+        throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
+    } 
+    else {
+       console.log(a*168)
+    };
+};
 
 // Hasta aquí
 
@@ -29,7 +36,7 @@ if ( typeof muestraPorConsolaEurosEnPesetas(2) === 'undefined' ) {
 }
 
 
-// TEST 4
+// TEST 3
 try {
     muestraPorConsolaEurosEnPesetas('1');
     muestraPorConsolaEurosEnPesetas(true);

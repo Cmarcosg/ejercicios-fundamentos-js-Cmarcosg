@@ -33,3 +33,9 @@ let gente = [{
         edad: 10
     },
 ]
+let letra = [];
+for (let persona of gente) {
+     if (persona.nombre[0]=== 'J')
+     letra.push(persona)
+}
+console.log(letra);

@@ -5,8 +5,20 @@
 
 
 // Aquí tu código
-
-
+var arr = [
+  objeto ={
+      name:'pepito',
+      age: 25,
+  },
+  objeto1 = {
+      name: 'pepito',
+      age: 24,
+  },
+  objeto3 = {
+      name:'Jose',
+      age: 15,
+  }, 
+];
 // Hasta aquí
 
 // TEST 1

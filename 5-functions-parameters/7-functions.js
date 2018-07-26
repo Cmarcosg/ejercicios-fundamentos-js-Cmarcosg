@@ -7,8 +7,9 @@
 //  convierteEurosEnPesetas(1) === 168 // true
 
 // Aquí tu código
-
-
+let convierteEurosEnPesetas = (a) => {
+    return a*168;
+};
 // Hasta aquí
 
 

@@ -5,7 +5,14 @@
 
 
 // Aquí tu código
-
+var obj = {
+    a: {
+     b: Boolean('False'),
+     c: ['',24],
+    },
+    d: Number (6),
+    f: 'Hola',
+};
 // Hasta aquí
 
 // TEST 1
